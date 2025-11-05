@@ -72,7 +72,7 @@ CREATE or replace JSON RELATIONAL DUALITY VIEW orders_dv AS
 ## 2️⃣ Duality View 조회 및 조작
 
 ```sql
-항상 세부 정보 표시
+
 prompt "Query duality view"
 
 -- (6) JSON 형태로 데이터 조회 (연결된 모든 테이블 내용 포함)
@@ -129,7 +129,7 @@ select * from order_items;
 ## 3️⃣ 읽기 전용 Duality View 테스트
 
 ```sql
-항상 세부 정보 표시
+
 prompt "Read Only Duality view"
 
 -- (13) 조작 기능 없이 조회 전용 Duality View 생성
