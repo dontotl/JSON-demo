@@ -133,7 +133,7 @@ select * from order_items;
 
 prompt "Read Only Duality view"
 
--- (13) 조작 기능 없이 조회 전용 Duality View 생성
+-- (13) DML 어노테이션을 제거하여, 조회 전용 Duality View 생성
 CREATE or replace JSON RELATIONAL DUALITY VIEW orders_dv AS
   customers 
     {
