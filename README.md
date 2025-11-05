@@ -1,4 +1,4 @@
-# JSON demo Hand-on Guide
+# JSON demo Hands-on Guide
 
 
 이 문서는 **Oracle JSON Duality View**를 처음 실습하는 사람을 위한 순서별 주석이 포함된 예제입니다.  
