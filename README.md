@@ -1,4 +1,4 @@
-# JSON-demo
+# JSON demo Hand-on Guide
 
 
 이 문서는 **Oracle JSON Duality View**를 처음 실습하는 사람을 위한 순서별 주석이 포함된 예제입니다.  
@@ -6,8 +6,10 @@
 
 ---
 
-유저 정보 | user01 ~ user50 
-접속 주소 | TBD (https://bit.ly/3WTGWX4)
+|항목|내용|설명|
+|------|---|---|
+|유저|user01 ~ user02|접속용|
+|접속주소|TBD (https://bit.ly/3WTGWX4)|데모사이트|
 
 ---
 
