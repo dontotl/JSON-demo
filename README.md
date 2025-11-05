@@ -117,6 +117,7 @@ select * from order_items;
 prompt "Delete via duality view"
 -- (11) JSON 조건을 이용하여 Carol 고객 삭제
 DELETE FROM orders_dv dv WHERE dv.DATA.name = 'Carol';
+COMMIT;
 
 prompt "Query duality view & tables"
 -- (12) 삭제 결과를 Duality View와 테이블 양쪽에서 확인
